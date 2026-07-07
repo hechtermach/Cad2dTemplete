@@ -1,0 +1,12 @@
+path_pattern,role,master_status,revision,version,description
+00_README.md,package_readme,controlled_reference,A,V1.5,Package entry point and use instructions
+0*.md,standard_document,controlled_reference,A,V1.5,Controlled 2D drawing standard document
+package_file_index.*,package_index,controlled_reference,A,V1.5,Generated package file index
+release_manifest.*,release_manifest,master,A,V1.5,Controlled release manifest covering generated files
+cad/Fixture_2D_Template_A3.dxf,exchange_template,reference,A,V1.5,A3 controlled 2D DXF exchange template
+cad/Fixture_2D_Template_A4.dxf,exchange_template,reference,A,V1.5,A4 compact controlled 2D DXF exchange template
+cad/fixture_2d_layers_styles.lsp,cad_authoring_helper,authoring_reference,A,V1.5,AutoCAD layer style initialization helper
+tables/*FAI*,inspection_file,controlled_reference,A,V1.5,First article inspection workbook or source table
+tables/*,controlled_table,controlled_reference,A,V1.5,Controlled source table or workbook
+references/*,project_reference,reference,A,V1.5,Background research and implementation reference
+*,generated_file,controlled_reference,A,V1.5,Generated package file
