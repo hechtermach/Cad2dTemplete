@@ -1,0 +1,6 @@
+dist/
+releases/
+fixture_2d_standard_v*/
+*.zip
+__pycache__/
+*.pyc
